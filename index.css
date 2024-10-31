@@ -1,0 +1,28 @@
+.red{
+    background-color: red;
+    height: 100px;
+    width: 50px;
+    border: 10px dotted black; 
+    margin: 15px;
+    display:inline-block;
+}
+
+.blue{
+    background-color: blue;
+    height: 100px;
+    width: 50px;
+    border: 10px dotted black; 
+    display: inline-block;
+    border-width: 10px;
+    margin: 15px;
+}
+
+.green{
+    background-color: green;
+    height: 100px;
+    width: 50px;
+    border: 10px dotted black; 
+    display: inline-block;
+    border-width: 10px;
+    margin: 15px;
+}

@@ -1,0 +1,28 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    translate: 100px 100px;
+    /* transition-duration: 3s; */
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform: rotate(60deg)  
+
+}
+
+@media screen and (max-width: 700px){
+    
+}
+
+@keyframes example{
+    0%{
+        transform: scale(0.4);
+    }
+     50%{
+        background-color: aquamarine;
+    }
+    100%{
+        transform: scale(1)
+    }
+}

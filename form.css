@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+}
+.body{
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.body>div{
+width: 500px;
+height: 74%;
+border-radius: 10px;
+background-color: white;
+box-shadow: 0 0 4px grey;
+margin: auto;
+position: relative;
+top: 40px;
+text-align: center;
+padding: 16px;
+
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(70, 101, 185);
+}
+h2+p{
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.name{
+    padding: 16px 0;
+    text-align: left;
+}
+.name>input{
+    width: 49%;
+}
+
+input[placeholder="First Name"]{
+    margin-right: 2.5%;
+}
+.input{
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 4px;
+    height: 35px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+::placeholder{
+    color: rgba(0, 0,0, 0.5);
+    font-weight: 600;
+}
+.dob>p{
+    text-align: left;
+    font-size: 12px; 
+    color: rgba(0, 0,0, 0.8);
+    margin: 4px;
+}
+
+.carl{
+    text-align: left;
+}
+p>span{
+   width: 8px; 
+   height: px;
+   border-radius: 50%;
+   display: inline-block;
+   background-color: black;
+   color: white;
+   text-align: center;
+   font-size: 10px;
+   padding:5px;
+   background-color: rgba(0, 0,0, 0.5);
+}
+
+.input{
+    width: 150px; 
+    height: 40px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.gender>p{
+    text-align: left;
+    font-size: 12px; 
+    color: rgba(0, 0,0, 0.8);
+    margin-top: 10px;
+}
+
+div.input{
+    display: inline-block;
+    text-align: left;
+    margin-top: 5px;
+    box-sizing: border-box;
+    position: relative;
+    right: 18px;
+    padding: 10px; 
+    height: 35px;
+    color: rgba(0, 0,0, 0.5);
+
+}
+
+input[type="radio"]{
+    margin-left: 50px;
+    margin-top: 4px;
+}
+
+.lastContainers>input{
+    width: 490px;
+    height: 38px;
+    margin: 8px;
+    box-sizing: border-box;
+    position: relative;
+    right: 5px;
+}
+
+.lastContainers~p{
+    font-size: 14px;
+    text-align: left;
+
+}
+
+a:visited{
+    color: #1877f2;
+}
+button{
+    display: block;
+    margin: 12px auto;
+    background-color: #00a400;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #1877f2;
+}

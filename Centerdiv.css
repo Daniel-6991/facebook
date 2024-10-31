@@ -1,0 +1,15 @@
+.center{
+    width: 250px;
+    height: 150px;
+    /* border: 1px 0 dodgerblue; */
+    background-color:  #F0EAD6;
+    position: relative;
+    top:228px;
+    left: 43%;
+    border-radius: 100%;
+    border: none;
+    color: black;
+    padding: 65px 0 0 57px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}

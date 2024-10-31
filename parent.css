@@ -1,0 +1,30 @@
+.parent{
+    width: 500px;
+    height: 200vh;
+    background-color: rgb(230, 221, 185);
+    box-shadow: 0 0 10px grey;
+    margin: auto;
+    padding: 24px;
+}
+
+.parent div{
+  width: 200px;
+  height: 200px;
+  /* color: black; */
+  border: 2px solid black;
+  margin: 6px;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: aqua;
+}
+
+.child{
+  background-color: brown !important;
+position: fixed;
+/* bottom: 0px;
+right: 200px; */
+}
+
+.second{
+  /* z-index: 50px; */
+}
